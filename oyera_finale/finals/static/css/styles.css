@@ -1,0 +1,10 @@
+/* the home/ langing page*/
+body{
+    margin:0;
+    background-image: url("../images/image6.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vh; 
+}
+
