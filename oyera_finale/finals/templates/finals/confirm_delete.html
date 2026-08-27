@@ -1,0 +1,6 @@
+<!-- delete_confirm.html  review this for you just copied it-->
+<form method="post">
+    {% csrf_token %}
+    <p>Confirm destroying this entry: {{ item.name }}?</p>
+    <button type="submit">Yes, Delete</button>
+</form>
